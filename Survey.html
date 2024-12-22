@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Survey.css">
+</head>
+<body>
+    <header>
+        <h1>DSLR Showroom Service Quality Feedback From</h1>
+    </header>
+    <section>
+       <p><h2>Be a part of the change!</h2></p>
+        <form action="" method="post">
+            <label for="name">Your Name:&nbsp;</label><input type="text"  id="name" name="name" placeholder="Enter your name">
+           <br>
+           <br>
+            <label for="email">Your Email:&nbsp;&nbsp;</label><input type="email" id="email" name="email" placeholder="Enter your email">
+            <br>
+            <br>
+            <label for="dateofvisit">Date of Visit:</label><input type="date" id="dateofvisit" name="dateofvisit">
+            <br>
+            <br>
+            <label for="visit_purpose">Purpose of Visit:&nbsp;&nbsp;&nbsp;</label>
+            <select id="visit_purpose" name="visit_purpose">
+              <option value="buying">Buying a DSLR</option>
+              <option value="accessories">Buying Accessories</option>
+              <option value="repairing">Repairing DSLR</option>
+              <option value="consultation">Consultation</option>
+              <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <label>Staff Knowledge:</label>
+            <div class="ddd">
+              &nbsp;&nbsp;&nbsp;
+              <input type="radio" id="knw1"  value="1"><label for="knw1">1</label>
+              <input type="radio" id="knw2"  value="2"><label for="knw2">2</label>
+              <input type="radio" id="knw3"  value="3"><label for="knw3">3</label>
+              <input type="radio" id="knw4"  value="4"><label for="knw4">4</label>
+              <input type="radio" id="knw5"  value="5"><label for="knw5">5</label>
+            </div>
+            <br>
+            
+            <label>Store Cleanliness:</label>
+            <div class="ddd">
+              &nbsp;
+              <input type="radio" id="cn1"  value="1"><label for="cn1">1</label>
+              <input type="radio" id="cn2"  value="2"><label for="cn2">2</label>
+              <input type="radio" id="cn3"  value="3"><label for="cn3">3</label>
+              <input type="radio" id="cn4"  value="4"><label for="cn4">4</label>
+              <input type="radio" id="cn5"  value="5"><label for="cn5">5</label>
+            </div>
+            <br>
+            <br>
+            <label for="pricing">Pricing:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <select id="pricing" name="pricing">
+              <div class="ddd">
+              <option value="reasonable">Reasonable</option>
+              <option value="expensive">Expensive</option>
+              <option value="very_expensive">Very Expensive</option>
+              </div>
+            </select>
+            <br>
+            <br>
+            <div id="kk"><label for="comments" id="cml">Suggestions or Feedback:</label></div>
+            <textarea id="comments" name="comments" placeholder="Write your feedback here..."></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+    </footer>   
+  
+</body>
+</html>
